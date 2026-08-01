@@ -24,6 +24,11 @@ h1:hover {
 	padding: 0;
 	transition: .2s;
 }
+@media screen and (max-width: 500px) {
+    h1 {
+        font-weight: normal;
+    }
+}
 h2 {
 	font-size: 30pt;
 	font-weight: lighter;
@@ -31,6 +36,11 @@ h2 {
 	margin-top: 5px;
 	margin-bottom: 0px;
 	margin-left: 30px;
+}
+@media screen and (max-width: 500px) {
+    h2 {
+        font-weight: normal;
+    }
 }
 h3 {
 	font-size: 20pt;
@@ -45,6 +55,11 @@ h3:hover {
 	color: #9d9d82;
 	cursor: pointer;
 }
+@media screen and (max-width: 500px) {
+    h3 {
+        font-weight: normal;
+    }
+}
 h4 {
 	font-size: 30pt;
 	font-weight: lighter;
@@ -53,17 +68,34 @@ h4 {
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
+@media screen and (max-width: 500px) {
+    h4 {
+        font-weight: normal;
+    }
+}
 .flex {
 	display: flex;
 	align-items: flex-start;
 	margin-top: 100px;
 }
+@media screen and (max-width: 500px) {
+    .flex {
+	      flex-direction: column;
+    }
+}
 .works {
 	display: flex;
 	flex-direction: column;
+	margin-left: 30px;
 }
 .works img {
 	margin-bottom: 30px;
+}
+@media screen and (max-width: 500px) {
+    .works img {
+        width: 300px;
+        height: auto;
+    }
 }
 .caption {
 	font-size: 15pt;
@@ -76,12 +108,24 @@ h4 {
     line-height: 27pt;
     width: 300px;
 }
+@media screen and (max-width: 500px) {
+    .caption  {
+	      margin-left: 30px;
+	      font-weight: normal;
+    }
+}
 .size {
 	font-size: 10pt;
 	font-weight: lighter;
 	color: #3e3a39;
 	margin-top: 30px;
 	margin-left: 100px;
+}
+@media screen and (max-width: 500px) {
+    .size {
+        font-weight: normal;
+        margin-left: 30px;
+    }
 }
 .button{
 	font-size: 20pt;
@@ -94,6 +138,11 @@ h4 {
   padding: 10px;
   cursor: pointer;
   transition: .3s;
+}
+@media screen and (max-width: 500px) {
+    .button {
+        font-weight: normal;
+    }
 }
 
 a{
